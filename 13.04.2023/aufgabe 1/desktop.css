@@ -1,0 +1,25 @@
+/*  */
+@media screen and (min-width: 800px) {
+    /* HTML Settings */
+    /* BODY Settings */
+    /* HEADER Settings */
+    /* MAIN Settings */
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main .main-content-container-1 {
+        grid-column-start: 1;
+    }
+    main .main-content-container-2 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        
+    }
+    /* FOOTER Settings */
+    footer {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+    
+}

@@ -1,0 +1,23 @@
+/*  */
+@media screen and (max-width: 799px) {
+    /* HTML Settings */
+    /* BODY Settings */
+    /* HEADER Settings */
+    /* MAIN Settings */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* FOOTER Settings */
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    footer .footer-text-wrapper {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

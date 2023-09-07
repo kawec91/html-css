@@ -1,0 +1,62 @@
+@media screen and (min-width: 800px) {
+    /*  */
+    /* HTML Settings */
+    /* BODY Settings */
+    body {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+    /* NAV Settings */
+    nav {
+        background-color: aqua;
+        grid-row-end: span 3;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* HEADER Settings */
+    header {
+        background-color: aquamarine;
+    }
+    /* MAIN Settings */
+    main {
+        background-color: burlywood;
+        grid-column-start: 2;
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    
+
+    
+    main #div-number-2 {
+        grid-column-start: 3;
+    }
+    main #div-number-3 {
+        grid-column-end: span 3;
+    }
+    
+    main #div-number-5 {
+        grid-column-start: 3;
+    }
+    /* FOOTER Settings */
+    footer {
+        background-color: cadetblue;
+        grid-column-start: 2;
+    }
+    /* NAV 2 Settings */
+    .nav2 {
+        background-color: cornsilk;
+        grid-row-start: 1;
+        grid-column-start: 3;
+        grid-row-end: span 3;
+    }
+
+    .nav2 .nav2-text-wrapper {
+        max-width: 200px;
+    }
+}

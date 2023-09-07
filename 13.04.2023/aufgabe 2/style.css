@@ -1,0 +1,70 @@
+/*  */
+/* HTML Settings */
+/* BODY Settings */
+/* NAV Settings */
+nav .nav-container .nav-img-wrapper img {
+    width: 80px;
+}
+/* HEADER Settings */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+header .header-menu-wrapper ol {
+    list-style-type: none;
+    display: flex;
+}
+
+header .header-menu-wrapper ol li {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+/* MAIN Settings */
+main .main-container img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+main .main-container p {
+    height: 30%;
+    overflow: auto;
+    padding: 5px;
+}
+
+main #div-number-1 {
+    background-color: coral;
+}
+main #div-number-2 {
+    background-color: cornflowerblue;
+}
+main #div-number-3 {
+    background-color: darkcyan;
+}
+main #div-number-4 {
+    background-color: darkolivegreen;
+}
+main #div-number-5 {
+    background-color: firebrick;
+}
+/* FOOTER Settings */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-right-container {
+    display: flex;
+}
+/* NAV2 Settings */
+.nav2 .nav-container .nav-img-wrapper img {
+    width: 80px;
+}

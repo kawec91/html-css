@@ -1,0 +1,123 @@
+/*  */
+/* HTML Settings */
+/* BODY Settings */
+body {
+    display: grid;
+    /* Columns Width */
+    grid-template-columns: 25% 75%;
+}
+/* NAV Settings */
+nav {
+    /* Column Start Position */
+    grid-column-start: 1;
+    /* Column Height */
+    grid-row-end: span 3;
+    display: flex;
+    /* Direction Hold Flex in Column */
+    flex-direction: column;
+    /* Border Settings */
+    border-right: 1px dashed black;
+}
+
+nav .nav-container {
+    /* Padding Around */
+    padding: 15px;
+}
+
+nav .nav-container .img-wrapper img {
+    /* Image width, hold all available width */
+    width: 100%;
+    /* Image height, hold all available height  */
+    height: 100%;
+    /* Specific Cover */
+    object-fit: cover;
+}
+
+nav .nav-container .nav-container-content-wrapper {
+    /* Max Container Height */
+    max-height: 100%;
+    /* Max Container Width */
+    max-width: 100%;
+    /* When Content need more space als available show Scrollbar */
+    overflow: auto;
+    
+}
+
+nav .nav-container .nav-container-content-wrapper a {
+    /* Space Between Margin Bottom and Content */
+    padding-bottom: 25px;
+}
+/* HEADER Settings */
+header {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header input { 
+    height: 25px;
+}
+/* MAIN Settings */
+main {
+    /* Column Start Position ( x | y ) */
+    grid-column-start: 2;
+    /* Column Start Position 
+    (  x
+       -
+       y  )
+    */
+    grid-row-start: 2;
+    /* Space Between Header and Content */
+    margin-top: 25px;
+    /* Space Between Content and Footer */
+    margin-bottom: 25px;
+    /* Space Between Nav and Content */
+    margin-left: 10px;
+    /* Space Between Content and Browser Scrollbar */
+    margin-right: 10px;
+}
+
+main .main-content-container {
+    /* Max Container Hight */
+    max-height: 600px;
+}
+
+main .main-content-container .main-img-wrapper img {
+    /* Image take all available width */
+    width: 100%;
+    /* Image take all available height */
+    height: 300px;
+    /* Specific Image Cover */
+    object-fit: cover;
+}
+
+main .main-content-container .main-text-wrapper {
+    /* Text Container Height */
+    height: 300px;
+    /* When Text need more space show scrollbar */
+    overflow: auto;
+}
+/* FOOTER Settings */
+footer {
+    /* Column Start Position (Which Column) */
+    grid-column-start: 2;
+    /* Column Start Position (Which Row) */
+    grid-row-start: 3;
+    /* Border Top */
+    border-top: 1px solid black;
+    /* Space Between Border and Content */
+    padding-top: 25px;
+}
+
+footer .footer-text-wrapper {
+    /* Space Between Nav and Footer */
+    margin-left: 10px;
+    /* Space Between Footer and Scrollbar */
+    padding-right: 10px;
+}
+

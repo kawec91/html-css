@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px) {
+    /*  */
+    /* HTML Settings */
+    /* BODY Settings */
+    body {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    /* NAV Settings */
+    nav {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column-end: span 3 ;
+    }
+    /* HEADER Settings */
+    header {
+        grid-column-start: 1;
+        grid-column-end: span 2;
+        grid-row-start: 1;
+    }
+    /* MAIN Settings */
+    main {
+        grid-column-start: 2;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    main #div-number-2 {
+        grid-column-start: 2;
+        grid-row-end: span 2;
+    }
+    main #div-number-3 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    
+    main #div-number-4 {
+        grid-row-start: 3;
+        grid-column-end: span 2;
+    }
+    main #div-number-5 {
+        grid-row-start: 4;
+        grid-column-end: span 2;
+    }
+    
+    /* FOOTER Settings */
+    footer {
+        grid-column-start: 2;
+    }
+    /* NAV 2 Settings */
+    .nav2 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        display: flex;
+    }
+}
