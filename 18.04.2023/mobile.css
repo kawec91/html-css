@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+
+    /*  */
+    /* HTML Settings */
+    /* BODY Settings */
+    body {}
+
+    /* NAV Settings */
+    nav {}
+
+    /* HEADER Settings */
+    header {
+        /* Display Setting */
+        display: flex;
+        /* When Needed Move Element to Next Row*/
+        flex-wrap: wrap;
+        /* Horizontal Alignment */
+        justify-content: center;
+        /* Vertical Alignment */
+        align-items: center;
+        /* Space Between Elements */
+        gap: 10px;
+    }
+
+    /* MAIN Settings */
+    main {
+        /* Display Setting */
+        display: flex;
+        /* When Needed Move Element to Next Row*/
+        flex-wrap: wrap;
+        /* Horizontal Alginment */
+        justify-content: space-around;
+        /* Padding Around Main in Mobile */
+        padding: 20px;
+    }
+
+    main .feld-1 {
+        /* Max Width for Mobile */
+        max-width: 100%;
+    }
+
+    main .feld-2 {
+        /* Max Width for Mobile */
+        max-width: 33%;
+    }
+
+    main .feld-3 {
+        /* Max Width for Mobile */
+        max-width: 33%;
+    }
+
+    main .feld-4 {
+        /* Max Width for Mobile */
+        max-width: 33%;
+    }
+
+    main .feld-5 {
+        /* Max Width for Mobile */
+        max-width: 100%;
+    }
+
+    /* FOOTER Settings */
+    footer {
+        /* Text Algin for Mobile */
+        text-align: center;
+    }
+}

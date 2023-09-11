@@ -1,0 +1,154 @@
+/*  */
+/* HTML Settings */
+/* BODY Settings */
+body {
+    /* Margin On Body */
+    margin: 0px;
+    /* Background Image From URL */
+    background-image: url(https://i.pinimg.com/originals/2e/e1/71/2ee17191628150ba9a83f8c20f395200.jpg);
+    /* Background Image Setting Dont Repeat*/
+    background-repeat: no-repeat;
+    /* Background Image Setting Dont Move Background at Scrolling */
+    background-attachment: fixed;
+    /* Background Image Setting Position */
+    background-position: center;
+    /* Text Color */
+    color: white;
+    /* Text Size */
+    font-size: 22px;
+}
+
+/* NAV Settings */
+nav {}
+
+/* HEADER Settings */
+header {
+    /* Header Border */
+    border-bottom: 1px solid black;
+    /* Header Padding */
+    padding: 20px;
+}
+
+header a {
+    /* Text Size */
+    font-size: 30px;
+    /* Text Setting */
+    font-weight: bold;
+    /* Remove Underline From A Element */
+    text-decoration: none;
+    /* Text Color */
+    color: white;
+    /* Transform Text To UPPERCASE */
+    text-transform: uppercase;
+}
+
+header a:hover {
+    /* Hover Color */
+    color: cornflowerblue;
+}
+
+/* MAIN Settings */
+main img {
+    /* Img Width for All Images in Main */
+    width: 100%;
+}
+
+main .feld-1 {
+    /* Linear Gradient */
+    background-image: linear-gradient(to bottom left, rgba(0, 255, 255, 0.301) 46%, rgba(0, 0, 255, 0.301));
+    /* Padding */
+    padding: 20px;
+}
+
+main .feld-2 {
+    /* Padding */
+    padding: 20px;
+    /* Gradient */
+    background-image: radial-gradient(circle at center center, rgba(255, 0, 0, 0.301), rgba(255, 166, 0, 0.301), rgba(255, 255, 0, 0.301), rgba(255, 255, 255, 0.301));
+}
+
+
+main .feld-3 {
+    /* Gradient */
+    background-image: linear-gradient(to top right, rgba(240, 230, 140, 0.301) 46%, rgba(0, 255, 255, 0.301));
+    /* Padding */
+    padding: 20px;
+}
+
+main .feld-4 {
+    /* Gradient */
+    background-image: radial-gradient(ellipse at center center, rgba(240, 140, 140, 0.301), rgba(255, 228, 196, 0.301), rgba(255, 166, 0, 0.301), rgba(0, 0, 255, 0.301));
+    /* Display Setings */
+    display: flex;
+    /* Horizontal Alignment */
+    justify-content: center;
+    /* Vertical Alignment */
+    align-items: center;
+}
+
+main .index-feld-4-image {
+    /* Img Specific Width For Item */
+    width: 150px;
+    /* Cover Type */
+    object-fit: cover;
+    /* Filter Effect */
+    filter: blur(3px);
+}
+
+main .feld-4:hover .index-feld-4-image {
+    /* Filter Hover Effect */
+    filter: blur(0px);
+}
+
+main .feld-5 {
+    /* Display Setings */
+    display: flex;
+    /* Horizontal */
+    justify-content: center;
+    /* Vertical */
+    align-items: center;
+    /* Gradient */
+    background-image: conic-gradient(rgba(255, 0, 0, 0.301), rgba(0, 0, 0, 0.301), rgba(236, 87, 150, 0.301));
+}
+
+main .index-feld-5-image {
+    /* Img Specific Width For Item */
+    width: 150px;
+    /* Cover Type */
+    object-fit: cover;
+    /* Filter Effect */
+    filter: sepia(2);
+}
+
+main .feld-5:hover .index-feld-5-image {
+    /* Filter Effect */
+    filter: sepia(0);
+}
+
+main .kontakt-feld-4-image {
+    object-fit: cover;
+    /* Filter Effect */
+    filter: brightness(40%);
+}
+
+main .feld-4:hover .kontakt-feld-4-image {
+    /* Filter Effect */
+    filter: brightness(100%);
+}
+
+main .kontakt-feld-5-image {
+    object-fit: cover;
+    /* Filter Effect */
+    filter: invert(25%);
+}
+
+main .feld-5:hover .kontakt-feld-5-image {
+    /* Filter Effect */
+    filter: invert(0%);
+}
+
+/* FOOTER Settings */
+footer {
+    /* Border Footer */
+    border-top: 1px solid black;
+}

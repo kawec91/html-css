@@ -1,0 +1,126 @@
+@media screen and (min-width: 601px) {
+
+    /*  */
+    /* HEADER Settings */
+    header {
+        /* Display Setting */
+        display: grid;
+        /* Columns Settings */
+        grid-template-columns: repeat(3, 1fr);
+        /* Space Between Elements in Grid */
+        gap: 10px;
+    }
+
+    header .header-search-container {
+        /* Start Column Position in Grid */
+        grid-column-start: 2;
+        /* End Column Position in Grid */
+        grid-column-end: span 2;
+        /* Start Row Position in Grid */
+        grid-row-start: 2;
+        /* End Row Position in Grid */
+        grid-row-end: 3;
+    }
+
+    header .header-search-container input {
+        /* Input Element Width */
+        width: 100%;
+    }
+
+    /* MAIN Settings */
+    main {
+        /* Display Setting */
+        display: grid;
+        /* Columns Settings */
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main .feld-1 {
+        /* Start Column Position in Grid */
+        grid-column-start: 1;
+        /* End Column Position in Grid */
+        grid-column-end: 3;
+    }
+
+    main .feld-2 {
+        /* Start Column Position in Grid */
+        grid-column-start: 3;
+        /* End Column Position in Grid */
+        grid-column-end: 4;
+        /* Start Row Position in Grid */
+        grid-row-start: 1;
+        /* End Row Position in Grid */
+        grid-row-end: 4;
+
+    }
+
+    main .feld-3 {
+        /* Start Column Position in Grid */
+        grid-column-start: 2;
+        /* End Column Position in Grid */
+        grid-column-end: 3;
+        /* Start Row Position in Grid */
+        grid-row-start: 2;
+        /* End Row Position in Grid */
+        grid-row-end: 4;
+    }
+
+    main .feld-4 {
+        /* Start Column Position in Grid */
+        grid-column-start: 1;
+        /* End Column Position in Grid */
+        grid-column-end: 2;
+        /* Start Row Position in Grid */
+        grid-row-start: 2;
+        /* End Row Position in Grid */
+        grid-row-end: 3;
+    }
+
+    main .feld-5 {
+        /* Start Column Position in Grid */
+        grid-column-start: 1;
+        /* End Column Position in Grid */
+        grid-column-end: 2;
+        /* Start Row Position in Grid */
+        grid-row-start: 3;
+        /* End Row Position in Grid */
+        grid-row-end: 4;
+    }
+
+    /* FOOTER Settings */
+    footer {
+        /* Display Setting */
+        display: grid;
+        /* Columns Settings */
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer .footer-icons-container {
+        /* Start Column Position in Grid */
+        grid-column-start: 1;
+        /* End Column Position in Grid */
+        grid-column-end: span 2;
+    }
+
+    footer .footer-text-container {
+        /* Start Column Position in Grid */
+        grid-column-start: 3;
+        /* End Column Position in Grid */
+        grid-column-end: 4;
+        /* Start Row Position in Grid */
+        grid-row-start: 1;
+        /* End Row Position in Grid */
+        grid-row-end: span 2;
+    }
+
+    footer .footer-copy-container {
+        /* Start Column Position in Grid */
+        grid-column-start: 1;
+        /* End Column Position in Grid */
+        grid-column-end: span 2;
+        /* Start Row Position in Grid */
+        grid-row-start: 2;
+        /* End Row Position in Grid */
+        grid-row-end: 3;
+    }
+}
